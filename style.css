@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    overflow-y: scroll;
+    scroll-snap-type: y mandatory;
+}
+.slides{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    color: white;
+    scroll-snap-align: start;
+}
+.slides img{
+    width: 350px;
+}
+.slides h2{
+    font-size: 70px;
+    font-weight: 600;
+    max-width: 650px;
+}
+.slide1{
+    background: linear-gradient(454deg, #f36b6b, #917df5, #77eaa3);
+}
+.slide2{
+    background: linear-gradient(454deg, #927df6, #78f1a6, #f17676);
+}
+.slide3{
+    background: linear-gradient(454deg, #7deea8, #ec6969, #917cfc);
+}
